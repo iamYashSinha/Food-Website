@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foodle</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
 <body>
     <nav class="nav">
@@ -20,20 +23,104 @@
         </div>
     </nav>
     
+
+    <!-- EXPANDING CARDS  -->
+
     <div class="hero">
-        <div class="container">
-            <h1>Welcome To My Foodle</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, laborum.</p>
+        <div class="panel active" style="background-image: url('https://images.unsplash.com/photo-1551463682-189bf47449d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=796&q=80')">
+            <h3>Meat & Sea Food</h3>
         </div>
-    </div>
+        <div class="panel" style="background-image: url('https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')">
+          <h3>Healthy and Diet</h3>
+        </div>
+        <div class="panel" style="background-image: url('https://images.unsplash.com/photo-1607756794730-60087ff756d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1179&q=80')">
+          <h3>Vegans</h3>
+        </div>
+        <div class="panel" style="background-image: url('https://images.unsplash.com/photo-1603384358453-e337643f75fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1237&q=80')">
+          <h3>Dessert</h3>
+        </div>
+        <div class="panel" style="background-image: url('https://images.unsplash.com/photo-1496318447583-f524534e9ce1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1234&q=80')">
+          <h3>Beverages</h3>
+        </div>
+        <script src="script.js"></script>
+    </div> <!-- EXPANDING CARDS Ends here -->
+
+
+
 
     <section class="container content">
-     <h2>Content One</h2>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae vitae aliquid eveniet modi dolorem rem temporibus eligendi, voluptatem blanditiis iusto ad. Quibusdam eveniet corporis, praesentium non quas ut sapiente ipsum.</p>
+        <div class="w3-row-padding ">
+            <h1>Trending Recipes</h1>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <img src="https://th.bing.com/th/id/OIP.MnjkS72gcWWDOTfoiUB3tAHaE8?pid=ImgDet&rs=1"  style="width:100%" height=200px>
+              <h3>Hyderabadi Biryani</h3>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              
+              <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+              <p><button class="myButton">View Recipe</button></p>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <img src="https://helloyummy.co/wp-content/uploads/2021/02/baked-feta-pasta-recipe16-1.jpg"  style="width:100%"  height=200px>
+              <h3>Tik Tok Pasta</h3>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star "></span>
+              <span class="fa fa-star "></span>
+              <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+              <p><button class="myButton">View Recipe</button></p>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <img src="https://cf.shopee.sg/file/12be91cfa02b01ab5bc5f6c78888a475"  style="width:100%" height=200px>
+              <h3>Squid Game Cookie</h3>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star "></span>
+              <span class="fa fa-star "></span>
+              <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+              <p><button class="myButton">View Recipe</button></p>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+              <img src="https://www.thespruceeats.com/thmb/NYMtB_wWtXmyLIicYQsLH38KChk=/940x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/crispy-smashed-potatoes-11-a97c0594b7e948238f2c9d845fd99011.jpg" alt="Dan" style="width:100%"  height=200px>
+              <h3>Crispy Smashed Potatoes</h3>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star "></span>
+              <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+              <p><button class="myButton">View Recipe</button></p>
+            </div>
+          </div>
+   
 
-     <h3>Content Two</h3>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi accusantium molestias minima, libero earum fugit itaque dolore maxime facilis, unde eveniet consequatur reiciendis doloremque, voluptas autem blanditiis nemo. Magnam, ullam.</p>
-     
-    </section>
+          <div class="dl-blurbs">
+            <dl>
+                <dt>Design</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+                <dt>Develop</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+                <dt>Test</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+            </dl>
+            <dl>
+                <dt>Deliver</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+                <dt>Rinse</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+            
+                <dt>Repeat</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</dd>
+            </dl>
+            </div>
+
+
+
+</section>
 </body>
 </html>
