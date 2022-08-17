@@ -10,11 +10,13 @@
 body{
     font-family: 'Open Sans', sans-serif;
     padding-bottom: 50px;
+   background-color: #f5f5f5;
 }
 
 .container{
-    max-width: 1200px;
+  max-width: 1400px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .nav{
@@ -23,12 +25,15 @@ body{
     left: 0;
     right: 0;
     transition: all 0.3x ease-in-out;
+    margin-left: 196px;
+    margin-right: 196px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .nav .container{
     display: flex;
-    justify-content: space-between; 
-    align-items: center;
+    justify-content: space-around;
     padding: 5px 0;
     transition: all 0.3s ease-in-out;
 }
@@ -45,6 +50,10 @@ body{
     text-decoration: none;
     padding: 7px 15px;
     transition: all 0.3s ease-in-out;
+}
+
+.nav h1{
+ float: left;
 }
 
 .nav.active{
@@ -76,8 +85,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1200px;
-    margin-left: 161px;
+    max-width: 1400px;
+    margin:auto;
+  }
+
+  .hero a:hover{
+    font-weight: bold;
   }
 
   .panel {
@@ -117,6 +130,7 @@ body{
 @media (max-width: 480px) {
   .container {
     width: 100vw;
+   
   }
 
   .panel:nth-of-type(4),
@@ -125,16 +139,18 @@ body{
   }
 }  /*Expanding Cards Css ends here */
 
-  
+img {
+  border-radius: 10%;
+}
 
-  
   .myButton {
     box-shadow:inset 0px 1px 0px 0px #fff6af;
     background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
     background-color:#ffec64;
-    border-radius:42px;
+    border-radius:60px;
     border:1px solid #ffebcc;
-    display:inline-block;
+    display:flex;
+    margin: auto;
     cursor:pointer;
     color:#333333;
     font-family:Arial;
@@ -203,97 +219,7 @@ body{
 }
 
 
-/*Fun Facts*/
 
 
 
 
-
-
-
-
-@if variable-exists(font-google-primary) {
-  @import url($font-google-primary);
-}
-
-@if variable-exists(font-google-secondary) {
-  @import url($font-google-secondary);
-}
-
-
-
-/*media queries*/
-@mixin tablet {
-  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
-    @content;
-  }
-}
-@mixin desktop {
-  @media (min-width: #{$desktop-width}) {
-    @content;
-  }
-}
-
-@mixin tablet-up {
-  @media (min-width: #{$tablet-width}) {
-    @content;
-  }
-}
-
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-body {
-    background-color:body-background-color;
-    font-family: base-font-family;
-    font-size: font-size-small;
-    color: body-text-color;
-    line-height: 1.5;
-}
-.dl-blurbs {
-	display: grid;
-	@include tablet-up {
-		grid-template-columns: repeat(2, 1fr);
-		gap: 2vw;
-	}
-}
-/* LIST */
-dl {
-  counter-reset: count;
-	background: dl-gradient-right;
-	padding-left: 4vw; 
-	padding-right: 4vw;
-	margin: 0;
-	@include tablet-up {padding-left: 2vw;}
-	@include desktop {
-		padding-top: 3vw;
-		padding-bottom: 3vw;
-	}
-	
-}
-dl + dl {
-	counter-reset: counter 4;
-}
-dt {
-  counter-increment: count;
-	color: cadet;
-	font-family: base-font-family;
-	font-size: 4vw;
-	text-transform: uppercase;
-}
-dt::before {
-  content: counter(count, decimal-leading-zero)".";
-	font-family: heading-font-family;
-	color: maximum-blue;
-	margin-left: -1vw;
-	padding-right: 12px;
-}
-
-dd {
-	margin-left: 5vw;
-	margin-bottom: 2vh;
-}
