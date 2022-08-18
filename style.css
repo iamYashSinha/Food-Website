@@ -8,14 +8,11 @@
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;
-    padding-bottom: 50px;
-<<<<<<< HEAD
-    background-color: #f5f5f5;
-   
-=======
+  
+   font-family: 'Open Sans', sans-serif;
+   padding-bottom: 50px;
    background-color: #f5f5f5;
->>>>>>> 8072f96747cd3cdeae6d02b19ae1ae86595b851b
+   background-color: #f5f5f5;
 }
 
 .container{
