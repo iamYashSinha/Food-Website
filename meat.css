@@ -131,3 +131,39 @@ body{
       transform: translateX(600px);
     }
   }
+
+  .section{
+    display: flex;
+    position: relative;
+    color: #362a2b;
+  }
+
+  .container{
+     margin: 25px 50px 75px 100px ;
+  }
+  .section img{
+  
+   margin: 54px 0px 0px 77px ;
+   height: 90vh;
+  }
+
+  .container h1{
+    color: #362a2b;
+    margin-top: 57px;
+    text-align: center;
+  }
+   
+  .container h5{
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .container .para{
+    margin-top: 57px;
+    
+  }
+
+  .container .para2{
+    margin-top: 57px;
+    
+  }
