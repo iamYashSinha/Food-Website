@@ -61,3 +61,5 @@ prevButton.addEventListener("click", () => {
 if (auto) {
   slideInterval = setInterval(nextSlide, intervalTime);
 }  //slide script ends here 
+
+
