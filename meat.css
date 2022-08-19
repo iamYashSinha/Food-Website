@@ -8,7 +8,7 @@
 
 body{
     font-family: "Lexend", sans-serif;
-    background-color: #e2e2e2 ;
+    background-color: #fff ;
     color: #e5ebf3;
 }
 
@@ -172,4 +172,31 @@ body{
    margin: 20px  90px 0px 71px;
   }
 
+  .section2{
+    display: flex;
+    color: #362a2b;
+    justify-content: center;
+    padding-right: 162px;
+    padding-left: 98px;
+  }
   
+  .section2 img{
+    height: 245px;
+    max-width: 245px;
+    margin: 63px 61px 15px 96px;
+    
+    justify-content: center;
+   }
+ 
+   .section2 h3{
+   text-align: center;
+    font-size: 15px;
+    width: 228px;
+    margin-left: 100px;
+   }
+
+   .section2 p{
+    text-align: center;
+    font-size: 10px;
+    margin-left: 88px;
+   }
