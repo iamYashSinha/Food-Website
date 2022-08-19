@@ -19,7 +19,7 @@
                 <li><a href="#" class="current">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -149,14 +149,31 @@
             </div>
           </div>
           </div>
-
-
-          <!-- About begins here -->
-          <div class="section3" id="about">
-            <div class="container">
-              
+        
+          <hr class="hori">
+    
+          <!-- contage page starts here  -->
+        <div class="w3-container" id="contact" style="margin-top:75px">
+          <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
+          <hr style="width:50px;border:5px solid red" class="w3-round">
+          <p>Do you want to upload your recipe? Fill out the form and fill me in with the details :) We love meeting new people!</p>
+          <form action="/action_page.php" target="_blank">
+            <div class="w3-section">
+              <label>Name</label>
+              <input class="w3-input w3-border" type="text" name="Name" required>
             </div>
-          </div>
+            <div class="w3-section">
+              <label>Email</label>
+              <input class="w3-input w3-border" type="text" name="Email" required>
+            </div>
+            <div class="w3-section">
+              <label>Message</label>
+              <input class="w3-input w3-border" type="text" name="Message" required>
+            </div>
+            <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+          </form>  
+        </div> <!-- contage page ends here  -->
+
 
 
 </section>

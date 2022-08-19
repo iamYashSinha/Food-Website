@@ -8,22 +8,15 @@
 }
 
 body{
-
   
    font-family: 'Open Sans', sans-serif;
    padding-bottom: 50px;
-   background-color: #f5f5f5;
-   background-color: #f5f5f5;
+   background-color: #ffffff;
+  
+}
 
-    font-family: 'Open Sans', sans-serif;
-    padding-bottom: 50px;
-
-    background-color: #f5f5f5;
-   
-
-   background-color: #f5f5f5;
-
-
+html {
+  scroll-behavior: smooth;
 }
 
 .container{
@@ -232,7 +225,20 @@ img {
 }
 
 
+.hori{
+  margin-top: 110px;
+}
+/*Contact section starts here*/
 
+.w3-xxxlarge{
+ margin-right: 1200px;
+}
 
+.w3-section label{
+ float: left;
+}
 
+.w3-container p{
+  margin-right: 496px;
+}
 
