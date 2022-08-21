@@ -83,6 +83,14 @@ html {
   }
 
 
+  /* Up icon */
+  .upicon{
+   display: flex;
+   justify-content: end;
+   margin-right: 20px;
+  }
+
+
   /*EXPANDING CARDS CSS*/
   .hero{
     background-position: bottom center;
@@ -241,4 +249,5 @@ img {
 .w3-container p{
   margin-right: 496px;
 }
+
 
