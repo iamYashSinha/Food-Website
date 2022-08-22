@@ -8,17 +8,18 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "icon" href = "https://cdn-icons.flaticon.com/png/512/3183/premium/3183463.png?token=exp=1660887344~hmac=26565944de475dea3233407c1456597a" type = "image/x-icon">
     
 </head>
 <body>
-    <nav class="nav">
+    <nav class="nav" id="nav">
         <div class="container">
             <h1 class="logo"><a href="index.html">Foodle Web</a></h1>
             <ul>
                 <li><a href="#" class="current">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -36,7 +37,8 @@
           <h3>Vegans</h3>
         </div>
         <div class="panel" style="background-image: url('https://images.unsplash.com/photo-1492683513054-55277abccd99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80')">
-          <h3>Dessert</h3>
+          
+          <a href="dessert.html"><h3>Dessert</h3></a>
         </div>
         <div class="panel" style="background-image: url('https://images.unsplash.com/photo-1606666475478-9efa023e900a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80')">
           <h3>Beverages</h3>
@@ -147,8 +149,35 @@
             </div>
           </div>
           </div>
-
-
+        
+          <hr class="hori">
+    
+          <!-- contage page starts here  -->
+        <div class="w3-container" id="contact" style="margin-top:75px">
+          <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
+          <hr style="width:50px;border:5px solid red" class="w3-round">
+          <p>Do you want to upload your recipe? Fill out the form and fill me in with the details :) We love meeting new people!</p>
+          <form action="/action_page.php" target="_blank">
+            <div class="w3-section">
+              <label>Name</label>
+              <input class="w3-input w3-border" type="text" name="Name" required>
+            </div>
+            <div class="w3-section">
+              <label>Email</label>
+              <input class="w3-input w3-border" type="text" name="Email" required>
+            </div>
+            <div class="w3-section">
+              <label>Message</label>
+              <input class="w3-input w3-border" type="text" name="Message" required>
+            </div>
+            <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+          </form>  
+        </div> <!-- contage page ends here  -->
 </section>
+
+    <div class="upicon">
+     <a href="#nav"> <img src="https://cdn-icons-png.flaticon.com/512/892/892692.png" alt="upArrow" width="35px" height="35px"> </a> 
+    </div>
+
 </body>
 </html>
